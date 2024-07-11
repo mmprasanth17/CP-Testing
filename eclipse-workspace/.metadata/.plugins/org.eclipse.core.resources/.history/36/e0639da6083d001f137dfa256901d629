@@ -1,0 +1,23 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AmazonCreateAnAccountPageTest {
+
+	@Test
+	void testYourName() {
+		
+		AmazonCreateAnAccountPage a= new AmazonCreateAnAccountPage();
+		
+		String expectedFirstnm = "prasanth";
+		String expectedLastnm = "Mani";
+		
+		String actualResult = a.YourName(expectedFirstnm, expectedLastnm);
+		assertSame(a.YourName(expectedFirstnm, expectedLastnm),"Please");
+		assertEquals(a.YourName(expectedFirstnm, expectedLastnm),actualResult);
+		
+	}
+
+}

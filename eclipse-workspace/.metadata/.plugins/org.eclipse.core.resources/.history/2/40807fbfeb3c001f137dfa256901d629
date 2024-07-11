@@ -1,0 +1,23 @@
+package io.cal;
+
+public class CalculatorProject {
+	public int add(int a, int b) {
+		return (a+b);
+	}
+	
+	public void sub(int a,int b)
+	{
+		return (a-b);
+	}
+	
+	public void div(int x,int y)
+	{
+		return (x-y);
+	}
+	public void mul(int x,int y)
+	{
+		return (x-y);
+	}
+	
+
+}

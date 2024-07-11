@@ -1,0 +1,5 @@
+username,password,api
+vijay@gmail.com,vijay,localhost:8888/users
+prasanth@gmail.com,prasanth,localhost:8888/users
+sandeep@gmail.com,sandeep,localhost:8888/users
+gokul@gmail.com,gokul,http://localhost:8888/users

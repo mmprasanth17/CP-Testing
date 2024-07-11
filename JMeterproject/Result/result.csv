@@ -1,0 +1,32 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719922243318,2090,Homepage,200,OK,Thread Group 1-1,text,true,,201372,224,1,1,https://mcc.edu.in/,1006,0,126
+1719922243318,1013,Homepage-0,301,Moved Permanently,Thread Group 1-1,text,true,,274,112,1,1,http://mcc.edu.in/,1006,0,126
+1719922244336,1072,Homepage-1,200,OK,Thread Group 1-1,text,true,,201098,112,1,1,https://mcc.edu.in/,997,0,966
+1719922245413,1693,Department,200,OK,Thread Group 1-1,text,true,,180159,378,1,1,https://mcc.edu.in/departments/,866,0,0
+1719922245413,866,Department-0,301,Moved Permanently,Thread Group 1-1,text,true,,381,127,1,1,http://mcc.edu.in/departments/%20,866,0,0
+1719922246280,773,Department-1,301,Moved Permanently,Thread Group 1-1,text,true,,378,127,1,1,https://mcc.edu.in/departments/%20,773,0,0
+1719922247053,53,Department-2,200,OK,Thread Group 1-1,text,true,,179400,124,1,1,https://mcc.edu.in/departments/,25,0,0
+1719922247107,880,Programmes,200,OK,Thread Group 1-1,text,true,,167755,256,1,1,https://mcc.edu.in/courses-offered/,832,0,0
+1719922247107,832,Programmes-0,301,Moved Permanently,Thread Group 1-1,text,true,,289,128,1,1,http://mcc.edu.in/courses-offered/,832,0,0
+1719922247940,47,Programmes-1,200,OK,Thread Group 1-1,text,true,,167466,128,1,1,https://mcc.edu.in/courses-offered/,24,0,0
+1719922247988,922,Faculty,200,OK,Thread Group 1-1,text,true,,220346,248,1,1,https://mcc.edu.in/all-faculty/,866,0,0
+1719922247988,866,Faculty-0,301,Moved Permanently,Thread Group 1-1,text,true,,285,124,1,1,http://mcc.edu.in/all-faculty/,866,0,0
+1719922248854,56,Faculty-1,200,OK,Thread Group 1-1,text,true,,220061,124,1,1,https://mcc.edu.in/all-faculty/,24,0,0
+1719922248911,897,Student,200,OK,Thread Group 1-1,text,true,,173097,242,1,1,https://mcc.edu.in/students/,836,0,0
+1719922248911,836,Student-0,301,Moved Permanently,Thread Group 1-1,text,true,,282,121,1,1,http://mcc.edu.in/students/,836,0,0
+1719922249747,61,Student-1,200,OK,Thread Group 1-1,text,true,,172815,121,1,1,https://mcc.edu.in/students/,26,0,0
+1719922249809,906,Alumni,200,OK,Thread Group 1-1,text,true,,171239,242,1,1,https://mcc.edu.in/alumni-3/,836,0,0
+1719922249809,836,Alumni-0,301,Moved Permanently,Thread Group 1-1,text,true,,282,121,1,1,http://mcc.edu.in/alumni-3/,836,0,0
+1719922250646,69,Alumni-1,200,OK,Thread Group 1-1,text,true,,170957,121,1,1,https://mcc.edu.in/alumni-3/,24,0,0
+1719922250716,912,Quality,200,OK,Thread Group 1-1,text,true,,175223,260,1,1,https://mcc.edu.in/quality-assurance/,842,0,0
+1719922250716,842,Quality-0,301,Moved Permanently,Thread Group 1-1,text,true,,291,130,1,1,http://mcc.edu.in/quality-assurance/,842,0,0
+1719922251558,70,Quality-1,200,OK,Thread Group 1-1,text,true,,174932,130,1,1,https://mcc.edu.in/quality-assurance/,23,0,0
+1719922251628,929,Media,200,OK,Thread Group 1-1,text,true,,201080,248,1,1,https://mcc.edu.in/mcc-inmedia/,839,0,0
+1719922251628,839,Media-0,301,Moved Permanently,Thread Group 1-1,text,true,,285,124,1,1,http://mcc.edu.in/mcc-inmedia/,839,0,0
+1719922252468,89,Media-1,200,OK,Thread Group 1-1,text,true,,200795,124,1,1,https://mcc.edu.in/mcc-inmedia/,24,0,0
+1719922252557,913,Fees,200,OK,Thread Group 1-1,text,true,,164660,246,1,1,https://mcc.edu.in/pay-online/,842,0,0
+1719922252557,842,Fees-0,301,Moved Permanently,Thread Group 1-1,text,true,,284,123,1,1,http://mcc.edu.in/pay-online/,842,0,0
+1719922253401,69,Fees-1,200,OK,Thread Group 1-1,text,true,,164376,123,1,1,https://mcc.edu.in/pay-online/,23,0,0
+1719922253471,951,Library,200,OK,Thread Group 1-1,text,true,,197460,244,1,1,https://mcc.edu.in/library-2/,846,0,0
+1719922253471,846,Library-0,301,Moved Permanently,Thread Group 1-1,text,true,,283,122,1,1,http://mcc.edu.in/library-2/,846,0,0
+1719922254317,105,Library-1,200,OK,Thread Group 1-1,text,true,,197177,122,1,1,https://mcc.edu.in/library-2/,24,0,0

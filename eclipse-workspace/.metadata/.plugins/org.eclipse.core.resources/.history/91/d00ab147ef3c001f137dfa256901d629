@@ -1,0 +1,14 @@
+package io.cal;
+
+public class ConditionalAssumptions {
+
+	public void OperatingSystem() {
+		System.out.println("I am using window 11");
+	}
+	
+	public void values() {
+		int i = 0;
+		System.out.println("Values= "+i);
+		return i;
+	}
+}

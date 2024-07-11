@@ -1,0 +1,12 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class AmazonProject {
+	
+	@Test
+	void testAmazonTagLine() {
+		String
+	}
+
+}

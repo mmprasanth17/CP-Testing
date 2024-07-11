@@ -1,0 +1,26 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ConditionalAssumptionsTest {
+
+	@Test
+	void testOperatingSys() {
+		
+		System.out.println("I am using window 11");
+		
+	
+	}
+	
+	void testValue()
+	{
+		boolean val = false;
+		assume True(val);
+		int expected=10;
+		int actual=c1.value();
+		assertEquals(expected, actual);
+	}
+
+}

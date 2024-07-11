@@ -1,0 +1,36 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AmazonCreateAnAccountPageTest {
+
+	@Test
+	void testYourName() {
+		
+		AmazonCreateAnAccountPage a= new AmazonCreateAnAccountPage();
+		
+		String expectedFirstnm = "prasanth";
+		String expectedLastnm = "Mani";
+		
+		String actualResult = a.YourName(expectedFirstnm, expectedLastnm);
+		assertSame(a.YourName(expectedFirstnm, expectedLastnm),actualResult,"Please");
+		assertEquals(a.YourName(expectedFirstnm, expectedLastnm),actualResult);
+		
+	}
+	
+	@Test
+	void MobNoAndEmailId()
+	{
+		AmazonCreateAnAccountPage b= new AmazonCreateAnAccountPage();
+		
+		int expectedMobNo=1234567787;
+		String expectedEmailID="prasanthmani1711@gmail.com";
+		
+		String actualResult= b.MobNoAndEmailId(expectedMobNo, expectedEmailID);
+		
+
+	}
+
+}

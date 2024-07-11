@@ -1,0 +1,19 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculatorProjectTest extends CalculatorProject {
+
+	@Test
+	void test() {
+		CalculatorProject c= new CalculatorProject();
+		
+		int expected = 2;
+		int actual = c.add(1, 1);
+		
+		assertEquals(expected, actual,"Add Function Can Calculate two integers");
+	}
+
+}

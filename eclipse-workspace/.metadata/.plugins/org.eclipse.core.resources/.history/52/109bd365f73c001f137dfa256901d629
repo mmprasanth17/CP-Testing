@@ -1,0 +1,68 @@
+package ak.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class LifeCycleAnnotationTest {
+	
+	LifeCycleAnnotation lifeCycleAnnotation;
+
+	@BeforeAll
+	void beforeAll() {
+		
+		System.out.println("this will run before all the methods");
+		
+	}
+
+	@AfterAll
+	void afterAll() {
+		System.out.println("this will run at Last");
+
+	}
+	
+	@BeforeEach
+	void init() {
+		
+		lifeCycleAnnotation = new LifeCycleAnnotation();
+		
+	}
+	
+	@AfterEach
+	void cleanUp() {
+		System.out.println("Clean Up Now");
+	}
+	
+	@Test
+	void testSquare() {
+		
+		int expected = 25;
+		int actual = lifeCycleAnnotation.square(5);
+		
+		assertEquals(expected,actual);
+	}
+	
+	@Test
+	void testCube() {
+		
+		int expected = 125;
+		int actual = lifeCycleAnnotation.cube(5);
+		
+		assertEquals(expected,actual,"Pass");
+	}
+	
+	@Test
+	void testPositive() {
+		
+		int expected = 25;
+		int actual = lifeCycleAnnotation.cube(5);
+		
+		assertEquals(expected,actual,"Pass");
+	}
+	
+	
+}
